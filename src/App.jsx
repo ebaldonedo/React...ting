@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import './App.css'
 import TestReact from './components/testReact'
+import Poke from './components/Poke'
 
 
 function App() {
@@ -10,8 +11,11 @@ function App() {
 
   return (
     <>
+    <h1>Reacting!</h1>
+
+    <Poke/>
       
-      <TestReact/>
+      
     </>
   )
 }

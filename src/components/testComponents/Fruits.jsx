@@ -6,7 +6,7 @@ export default function Fruits() {
 //2.-Add variable to an array
 
 const [fruit, setfruit] = useState(['apple'])
-let fr=fruit
+
 
 
 const addFruit= ()=>{

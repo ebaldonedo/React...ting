@@ -17,7 +17,7 @@ const addCar = () => {
     }
     return (
         <div>
-            <h3>Add Car</h3>
+            
             <button onClick={addCar}>New Car</button>
             <h3>My Cars:</h3>
             {car.map((car, index) => (
