@@ -24,7 +24,7 @@ function Poke() {
                 {pokemonData.map((pokemon, index) => (
                 <div key={index} className="pokemon-card">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} alt={pokemon.name} />
-                    <h2>{pokemon.name}</h2>
+                    <h4 style={{margin:0}}>#{index+1} {pokemon.name}</h4>
                 </div>
         ))}
             </div>
